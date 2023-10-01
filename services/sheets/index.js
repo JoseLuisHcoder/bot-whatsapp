@@ -36,7 +36,7 @@ class GoogleSheetService {
       await sheet.loadCells("A1:H10");
       const rows = await sheet.getRows();
       for (const a of Array.from(Array(rows.length).keys())) {
-        const cellA1 = sheet.getCell(a + 1, dayNumber - 1);
+        const cellA1 = sheet.getCell(a + 1, dayNumber);
         list.push(cellA1.value);
       }
 

@@ -9,7 +9,7 @@ import chatgpt from "./services/openai/chatgpt.js";
 import GoogleSheetService from "./services/sheets/index.js";
 
 const googelSheet = new GoogleSheetService(
-  "1rDDWdRcLmecRhDSepMZdJwxMIp8iOxZMjDKuh2dA6W8"
+  "1U8-TgexG5DEyA5FkLKw5NAQiGFnJPd9AnkhZJevHZYo"
 );
 
 const GLOBAL_STATE = [];
